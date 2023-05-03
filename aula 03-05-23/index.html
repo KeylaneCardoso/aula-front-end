@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTEEEEEEE</title>
+</head>
+<body id="fundo">
+    
+
+    <h2 id="titulo">Keylane Silva Cardoso</h2>
+
+    <p id="texto">Mudando o CSS</p>
+    <button id="botao" onclick="modoNoturno()">Noturno</button>
+
+    <script>
+        let button = document.getElementById('botao')
+        let fundo = document.getElementById('fundo')
+        let texto = document.getElementById('texto')
+        let titulo = document.getElementById('titulo')
+       
+        
+        function modoNoturno(){
+            var conteudoButton = button.textContent
+             if(conteudoButton == 'Noturno'){
+                fundo.style.background='black';
+                texto.style.color='rgb(255, 255, 255)';
+                titulo.style.color='rgb(255, 255, 255)';
+                button.innerHTML = 'Claro';
+
+            }else{
+                fundo.style.background='rgb(255, 255, 255)';
+                texto.style.color='black';
+                titulo.style.color='black';
+                button.innerHTML = 'Noturno';
+                
+            }
+                        
+        }
+
+
+
+    </script>
+
+</body>
+</html>
