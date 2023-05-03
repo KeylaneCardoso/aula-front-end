@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" media="screen"> </link>
+</head>
+<body>
+    
+    <h1>CALCULADORA ONLINE</h1>
+
+    <!-- 
+        https://techdegree.com.br/posts/dicais-uteis-sobre-funcoes-em-javascript
+        
+        
+        <div class=”calculator”>
+        <div class=”calculator__display”>0</div>
+        <div class="calculator__keys">
+            <button class="key--operator" data-action="add">+</button>
+            <button class="key--operator" data-action="subtract">-</button>
+            <button class="key--operator" data-action="multiply">&times;</button>
+            <button class="key--operator" data-action="divide">÷</button>
+            <button id="numero-7" value="7">7</button>
+            <button id="numero-8" value="8">8</button>
+            <button id="numero-9" value="9">9</button>
+            <button id="numero-4" value="4">4</button>
+            <button id="numero-5" value="5">5</button>
+            <button id="numero-6" value="6">6</button>
+            <button id="numero-1" value="1">1</button>
+            <button id="numero-2" value="2">2</button>
+            <button id="numero-3" value="3">3</button>
+            <button id="numero-0" value="0">0</button>
+            <button data-action="decimal">.</button>
+            <button data-action="clear">Limpar</button>
+            <button class="key--equal" data-action="calculate">=</button>
+        </div>
+    </div> -->
+    <div id="soma">
+        <input id="num1" type="number"></input>
+        <p> + </p>
+        <input id="num2" type="number"></input>
+    </div>
+
+    <button id="botao" onclick="soma()">Somar</button>
+    <p id="resultado">0</p>
+
+    <script>
+            let num1 = document.getElementById('num1').value;
+            let num2 = document.getElementById('num2').value;
+            let resultado = document.getElementById('resultado');
+        function soma(){        
+            resultado = num1 + num2;
+            //resultado.innerHTML = resultado;
+            document.getElementById('resultado').innerHTML = document.getElementById('num1').value+document.getElementById('num2').value;
+        
+        }
+    </script>
+    
+    
+
+
+</body>
+</html>
