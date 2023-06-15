@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#icon-menu {
+    width: 25px;
+    padding-right: 10px;
+}
+
+#logo-youtube {
+    width: 100px;
+}
+
+#barra-pesquisa {
+    padding: 8px;
+    border-radius: 30px;
+    border-color: rgb(202, 202, 202);
+    width: 600px;
+}
+
+#logo-perfil {
+    width: 25px;
+    padding-right: 5px;
+}
+
+#botao-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    padding: 8px;
+    font-family: arial;
+    color: blue;
+    border-color: rgb(202, 202, 202);
+}
+
+.icon-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 10px 70px 10px 70px; 
+}
+
+#video-principal {
+    display: flex;
+    flex-direction: column; 
+}
+
+#titulo-video {
+    font-family: arial;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#foto-perfil {
+    width: 40px;
+    border-radius: 50%;
+    padding-right: 5px;
+}
+
+#text-perfil {
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+}
+
+#text-perfil p {
+    font-size: 12px;
+}
+
+.perfil-youtuber {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.lista-videos-sugestao {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-sugestao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 10px 0
+}
+
+.texto-sugestoes {
+    font-family: arial;
+    padding-left: 5px;
+}
+
+
+
+
