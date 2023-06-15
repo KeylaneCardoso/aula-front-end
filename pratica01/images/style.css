@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+}
+
+main {
+    background-image: url('../image/ceu-azul-fantastica.jpg');
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#titulo-descricao {
+    margin: 20px 0 20px 0;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+
+#titulo {
+    font-family: Adobe Naskh Medium;
+    font-size: 70px;
+}
+
+#descricao {
+    font-size: 30px;
+    color: rgb(86, 87, 94);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer .info-linguagens {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+footer .logo {
+    width: 100px;
+}
