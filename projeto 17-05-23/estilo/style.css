@@ -7,7 +7,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(94, 49, 94);
+    background-color: rgb(0, 30, 85);
     padding: 2%;
     /* position: fixed; */
     /* width: 98%; */
@@ -16,7 +16,6 @@ header{
 
 #logo {
     width: 2em;
-    background-color: aliceblue;
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
@@ -34,6 +33,11 @@ header li{
     gap: 0.1em;
     padding: 0.2em;
     list-style: none;
+}
+
+.barra-nav h2{
+    margin-left: 0.75em;
+    color:rgb(255, 255, 255);
 }
 
 #header-lateral{
@@ -61,6 +65,7 @@ main{
 
 #container1 button{
     width: 100%;
+    padding: 0.5em;
 }
 
 #container2 {
@@ -88,4 +93,8 @@ footer{
     display: flex;
     justify-content: center;
     margin-top: 5em; 
+}
+
+footer.barra-nav {
+    gap: 1.5em;
 }
